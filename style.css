@@ -9,7 +9,7 @@
   font-style: normal;
 }
 main{
-    background-image:url(./images/main\ image.jpg);
+    background-image:url(./images/mainimage.jpg);
     height: 600px;
     background-size: cover; 
 }
