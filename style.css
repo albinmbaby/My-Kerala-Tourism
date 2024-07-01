@@ -78,13 +78,19 @@ header{
     background-color: #00e600;
 }
 .top-dest-align,.about-align,.dist-align{
-    margin: 75px 50px;
-}
+    
+     margin: 75px 50px; 
+} 
 .article-align{
     display: grid;
-    grid-template-columns: 650px 650px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
     height: 800px;
-    padding-top: 50px;
+    padding: 50px;
+    column-gap: 70px;
+    row-gap: 3.125rem;
+   
 }
 .image-border{
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
@@ -95,17 +101,17 @@ header{
 }
 .article-align p{
     font-size: 30px;
-    /* text-decoration:underline #00ccff; */
     padding-bottom: 10px;
 }
 .more-link{
     text-align: center;
+    padding: 100px;
 }
 .para-align{
     display: grid;
-    grid-template-columns: 500px 800px; 
-    padding-top: 50px;
-    column-gap: 150px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
 }
 .about-align h1{
     text-align: right;
@@ -117,12 +123,16 @@ header{
 }
 .para-style{
     font-size: 20px;
+   
 }
 .fig-align{
     display: grid;
-    grid-template-columns: 450px 450px 450px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
     padding-top: 50px;
-    row-gap: 75px;
+    column-gap: 50px;
+    row-gap: 1.5625rem;
 }
 .fig-border{
     border-radius: 50%;
@@ -132,7 +142,6 @@ header{
     text-align: center;
     font-size: 30px;
     padding-top: 20px;
-    padding-right: 100px;
 }
 .form-border{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -142,7 +151,6 @@ header{
     padding: 20px 30px;
     border-radius: 25px;
     background-color: #00ccff;
-    /* align-items: center; */
 }
 .form-border h1{
     text-align: center;
