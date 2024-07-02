@@ -193,8 +193,11 @@ footer{
         text-align: center;
     }
     .article-align{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr); 
         height: auto;
+    }
+    .article-align p{
+        text-align: center;
     }
     .more-link{
         padding: 10px;
@@ -206,8 +209,12 @@ footer{
         grid-template-columns: repeat(1,1fr);
         height: auto;
     }
-    .para-align{
-        font-size: 30px;
+    .para-align div{
+        max-width: 100vw;
+    }
+    .para-style{
+        font-size: 20px;
+        text-align: center;
     }
     .dist-align h1{
         text-align: center;
@@ -238,8 +245,12 @@ footer{
         grid-template-columns: repeat(1,1fr);
         height: auto;
     }
-    .para-align{
-        font-size: 30px;
+    .para-align div{
+        max-width: 100vw;
+    }
+    .para-style{
+        font-size: 20px;
+        text-align: center;
     }
     .dist-align h1{
         text-align: center;
@@ -249,4 +260,5 @@ footer{
         height: auto;
     }
 }
+
 
