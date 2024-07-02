@@ -185,3 +185,68 @@ footer{
     padding-bottom: 30px;
     background-color: #00ccff;
 }
+@media(max-width: 768px){
+    .top-dest-align{
+        margin: auto auto;
+    }
+    .top-dest-align h1{
+        text-align: center;
+    }
+    .article-align{
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+    }
+    .more-link{
+        padding: 10px;
+    }
+    .about-align h1{
+        text-align: center;
+    }
+    .para-align{
+        grid-template-columns: repeat(1,1fr);
+        height: auto;
+    }
+    .para-align{
+        font-size: 30px;
+    }
+    .dist-align h1{
+        text-align: center;
+    }
+    .fig-align{
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+    }
+}
+@media(min-width:769px) and (max-width:1279px){
+    .top-dest-align{
+        margin: auto auto;
+    }
+    .top-dest-align h1{
+        text-align: center;
+    }
+    .article-align{
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+    }
+    .more-link{
+        padding: 10px;
+    }
+    .about-align h1{
+        text-align: center;
+    }
+    .para-align{
+        grid-template-columns: repeat(1,1fr);
+        height: auto;
+    }
+    .para-align{
+        font-size: 30px;
+    }
+    .dist-align h1{
+        text-align: center;
+    }
+    .fig-align{
+        grid-template-columns: repeat(2, 1fr);
+        height: auto;
+    }
+}
+
